@@ -277,7 +277,7 @@ function makeRpc(worker) {
 
         let payload = null;
         try {
-            const prsp = await fetch("payload.bin");
+            const prsp = await fetch("goldhen.bin");
             if (prsp.ok) payload = new Uint8Array(await prsp.arrayBuffer());
         } catch (e) {
             mark("PAYLOAD-FETCH-FAILED", (e && e.message) ? e.message : String(e));
@@ -3374,7 +3374,7 @@ function makeRpc(worker) {
                                     mark("PAYLOAD-SKIPPED", "reason=kpatch-incomplete");
                                 }
                                 if (!payload) {
-                                    mark("PAYLOAD-NONE", "payload.bin was not loaded");
+                                    mark("PAYLOAD-NONE", "goldhen.bin was not loaded");
                                 }
 
                                 if (payload && params.get("payload") === "0")

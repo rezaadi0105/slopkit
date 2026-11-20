@@ -1,6 +1,6 @@
 CACHE MANIFEST
 # v1
-# Generated on 2026-11-03 13:34:27.782023
+# Generated on 2026-11-20 14:54:04.786862
 
 CACHE:
 rpc_worker.js
@@ -9,20 +9,25 @@ jb.js
 ps4_offsets.js
 int64.js
 mem.js
+afterglow.js
 favicon.ico
 cache.html
 style.css
-chain_poops.js
 chain_lapse.js
+goldhen.bin
 index.html
-payload.bin
+patches/1400.bin
 patches/1250.bin
+patches/1252.bin
 patches/1352.bin
+patches/1402.bin
 patches/1200.bin
+patches/1304.bin
 patches/1302.bin
 patches/1350.bin
 patches/1300.bin
 patches/1150.bin
+patches/1202.bin
 
 NETWORK:
 *
